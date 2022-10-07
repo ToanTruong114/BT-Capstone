@@ -8,20 +8,23 @@ html, body {
     box-sizing: border-box;
 }
 p {
-color: #5a5a5a;
+color: white;
 }
 .btn-primary:active{
     background-color: transparent;
 }
-#darktheme {
+body {
+    background-color: black;
+}
+#lighttheme {
     z-index: 9999999999;
     position: absolute;
     top: 100px;
     left: 30px;
 }
-#darktheme  a i{
+#lighttheme  a i{
     font-size: 30px;
-    color: black;
+    color: white;
 }
 /* header ====================================================== */
 body .one {
@@ -37,7 +40,7 @@ body .one {
     cursor: pointer;
 }
 header {
-    background-color: white;
+    background-color: black;
     padding: 0px;
     transition: all 0.4s ease 0s;
     height: 90px;
@@ -91,10 +94,10 @@ header.nav-fixed {
     width: 20px;
 }
 .navbar-dark .navbar-nav .nav-link {
-    color: #2C3038;
+    color: white;
 }
 .navbar-dark .navbar-nav .nav-link:hover {
-    color: black;
+    color: white;
     cursor: pointer;
 }
 header .navbar-toggler {
@@ -124,7 +127,7 @@ header .navbar-toggler {
 }
 #portnavbar .dropdown-item:hover {
     color: #dc4f72;
-    background-color: transparent;
+    background-color: black;
 }
 .dropdown-item {
     padding: 0.5rem 1.5rem;
@@ -205,10 +208,13 @@ header .navbar-toggler {
 }
 /* Carousel ============================================================ */
 .carousel {
+    background-color: black;
     margin-top: 80px;
-    background-image: linear-gradient(to right, #fff, rgba(255, 255, 255, 0.92)), url(../image/banner.jpg);
-    background-position: bottom;
+    background-image: linear-gradient(to left, black, rgba(0, 0, 0, 0.5)), url(../image/banner.jpg);
     background-size: cover;
+}
+.carousel h1, p{
+    color: white;
 }
 .card {
     border: none;
@@ -282,7 +288,7 @@ header .navbar-toggler {
 }
 /* About ================================================================== */
 .about {
-    background-color:#f7f9fc;
+    background-color:black;
     background-size: cover;
 }
 .about .card {
@@ -334,7 +340,7 @@ header .navbar-toggler {
 
 /* number ==================================================================== */
 .number {
-    background-color: #f7f9fc;
+    background-color: black;
 }
 .number h5 {
     color: black;
@@ -470,7 +476,7 @@ header .navbar-toggler {
     padding-top: 40px;
 }
 .question {
-    background-color: #F7F9FC;
+    background-color: #000000;
 }
 .question img {
     width: 100%;
@@ -526,7 +532,7 @@ details[open] i {
     font-size: 22px;
     border-bottom: 2px solid;
     width: 100%;
-    color: #4E5B61;
+    color: white;
 }
 
 @media only screen and (max-width: 768px){
@@ -542,6 +548,7 @@ details[open] i {
 
 #myTab .nav-link.active {
     color: #dc4f72;
+    background-color: black;
 }
 #myTabContent .card-body img {
     width: 100%;
@@ -596,6 +603,7 @@ details[open] i {
 #accordionExample .card-header .btn{
     text-decoration: none;
     color: black;
+    background-color: white;
 }
 #accordionExample .card-header .btn:hover{
     cursor: pointer;
@@ -609,7 +617,7 @@ details[open] i {
         display: block !important;
     }
     #accordionExample .card__border{
-        border: 0.5px solid black;
+        border: 0.5px solid rgb(153, 153, 153);
     }
     #accordionExample .card__border .card-header{
         padding: 0;
@@ -621,7 +629,7 @@ details[open] i {
 
 /* client ============================================================== */
 .client {
-    background-image: linear-gradient(to right, rgba(247, 249, 252, 0.77), rgba(247, 249, 252, 0.77)), url(../image/b2.jpg);
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0.77), rgba(0, 0, 0, 0.77)), url(../image/b2.jpg);
     background-size: cover;
     background-repeat: no-repeat, no-repeat, no-repeat;
     background-position: center;
@@ -752,13 +760,13 @@ details[open] i {
 }
 /* footer ==================================================================== */
 .footer {
-    background-color: #F7F9FC;
+    background-color: black;
     padding: 50px 0;
 }
 .footer .row h3 {
     font-size: 20px;
     line-height: 25px;
-    color: #656f7b;
+    color: white;
     margin-bottom: 30px;
     font-weight: 700;
 }
@@ -768,7 +776,7 @@ details[open] i {
 }
 .footer .footer-gd-16 a {
     text-decoration: none;
-    color: #656f7b;
+    color: white;
     line-height: 25px;
     padding: 0;
 }
@@ -826,7 +834,7 @@ input[type="email"] {
     display: inline;
 }
 .footer .social li a span{
-    color: black;
+    color: white;
     padding: 0 10px;
 }
 @media screen and (max-width: 991px){

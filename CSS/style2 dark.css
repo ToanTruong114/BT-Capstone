@@ -8,20 +8,23 @@ html, body {
     box-sizing: border-box;
 }
 p {
-color: #5a5a5a;
+color: white;
 }
 .btn-primary:active{
     background-color: transparent;
 }
-#darktheme {
+body {
+    background-color: black;
+}
+#lighttheme {
     z-index: 9999999999;
     position: absolute;
     top: 100px;
     left: 30px;
 }
-#darktheme  a i{
+#lighttheme  a i{
     font-size: 30px;
-    color: black;
+    color: white;
 }
 /* header ====================================================== */
 body .one {
@@ -37,7 +40,7 @@ body .one {
     cursor: pointer;
 }
 header {
-    background-color: white;
+    background-color: black;
     padding: 0px;
     transition: all 0.4s ease 0s;
     height: 90px;
@@ -91,10 +94,10 @@ header.nav-fixed {
     width: 20px;
 }
 .navbar-dark .navbar-nav .nav-link {
-    color: #2C3038;
+    color: white;
 }
 .navbar-dark .navbar-nav .nav-link:hover {
-    color: black;
+    color: white;
     cursor: pointer;
 }
 header .navbar-toggler {
@@ -124,7 +127,7 @@ header .navbar-toggler {
 }
 #portnavbar .dropdown-item:hover {
     color: #dc4f72;
-    background-color: transparent;
+    background-color: black;
 }
 .dropdown-item {
     padding: 0.5rem 1.5rem;
@@ -252,7 +255,7 @@ header .navbar-toggler {
 /* Best ================================================================= */
 #best2 {
     margin: 50px 0;
-    background-color: #F7F9FC;
+    background-color: black;
 }
 #best2 .container {
     padding: 50px 0;
@@ -281,7 +284,7 @@ header .navbar-toggler {
     transform: translate(-50%,-50%);
 }
 #best2  h6 a {
-    color: black;
+    color: white;
     font-weight: 800;
     font-size: 18px;
     text-decoration: none;
@@ -314,6 +317,8 @@ header .navbar-toggler {
 #feature2 .card {
     padding: 20px 10px;
     margin-top: 40px;
+    background-color: black;
+    border: 1px solid white;
 }
 #feature2 .card-body {
     padding-top: 0px;
@@ -375,13 +380,13 @@ header .navbar-toggler {
 }
 /* footer ==================================================================== */
 .footer {
-    background-color: #F7F9FC;
+    background-color: black;
     padding: 50px 0;
 }
 .footer .row h3 {
     font-size: 20px;
     line-height: 25px;
-    color: #656f7b;
+    color: white;
     margin-bottom: 30px;
     font-weight: 700;
 }
@@ -391,7 +396,7 @@ header .navbar-toggler {
 }
 .footer .footer-gd-16 a {
     text-decoration: none;
-    color: #656f7b;
+    color: white;
     line-height: 25px;
     padding: 0;
 }
@@ -428,7 +433,6 @@ input[type="email"] {
     color: #fff;
     border-radius: 6px;
 }
-
 .footer .end-column h4 {
     font-size: 18px;
     line-height: 25px;
@@ -450,7 +454,7 @@ input[type="email"] {
     display: inline;
 }
 .footer .social li a span{
-    color: black;
+    color: white;
     padding: 0 10px;
 }
 @media screen and (max-width: 991px){
