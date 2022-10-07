@@ -557,6 +557,58 @@ details[open] i {
     box-shadow: 0 0 0 0.2rem rgb(220 79 114 / 50%);
 }
 
+#accordionExample .card-body .btn-primary {
+    background-color: white;
+    color: #dc4f72;
+    border: 1px solid #dc4f72;
+    padding: 20px 40px;
+    font-weight: bold;
+    transition: all 0.5s ease-in-out;
+}
+#accordionExample .card-body .btn-primary:hover {
+    background-color:#dc4f72;
+    color: white;
+}
+#accordionExample .card-body .btn-primary:focus {
+    box-shadow: 0 0 0 0.2rem rgb(220 79 114 / 50%);
+}
+#accordionExample .card-body img {
+    width: 100%;
+    border-radius: 6px;
+    transition: all 0.5s ease-in-out;
+}
+#accordionExample .card-body img:hover{
+    transform: translateY(-10px);
+}
+#accordionExample {
+    display: none !important;
+}
+#accordionExample .card-header .btn{
+    text-decoration: none;
+    color: black;
+}
+#accordionExample .card-header .btn:hover{
+    cursor: pointer;
+    color: #dc4f72;
+}
+#accordionExample .card-header .btn:focus{
+    box-shadow: none;
+}
+@media screen and (max-width: 768px){
+    #accordionExample {
+        display: block !important;
+    }
+    #accordionExample .card__border{
+        border: 0.5px solid black;
+    }
+    #accordionExample .card__border .card-header{
+        padding: 0;
+    }
+    #myTab, #myTabContent{
+        display: none;
+    }
+}
+
 /* client ============================================================== */
 .client {
     background-image: linear-gradient(to right, rgba(247, 249, 252, 0.77), rgba(247, 249, 252, 0.77)), url(../image/b2.jpg);
