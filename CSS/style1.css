@@ -64,6 +64,11 @@ header.nav-fixed {
 .navbar-dark .navbar-nav .show>.nav-link {
     color: black;
 }
+@media screen and (max-width: 991px){
+    .navbar-dark .navbar-nav .show>.nav-link {
+          transform: translateX(56px);
+    }
+}
 #site-header .navbar-dark .navbar-nav .home:hover {
     color:#dc4f72;
 }
