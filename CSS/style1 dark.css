@@ -81,7 +81,7 @@ header.nav-fixed {
     color:#dc4f72;
 }
 .navbar-dark .navbar-nav .nav-link:focus {
-    color: black;
+    color: white;
 }
 .navbar-dark .navbar-nav .nav-link:after {
     content: "";
